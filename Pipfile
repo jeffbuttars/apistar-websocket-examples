@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+"015a35f" = {path = "/home/jeffre/Dev/apistar/apistar", editable = true}
+aiohttp = "*"
+aiofiles = "*"
+
+[dev-packages]
+neovim = "*"
+isort = "*"
+
+[requires]
+python_version = "3.6"
