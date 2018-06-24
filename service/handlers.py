@@ -94,6 +94,8 @@ async def producer_of_json(ws: WebSocket):
             'uuid5': str(uuid.uuid5(uuid.NAMESPACE_URL, 'apistar websockets')),
         })
 
+        await asyncio.sleep(0.0)
+
 
 # A simple one second(ish) timer
 async def timer(ws: WebSocket):
