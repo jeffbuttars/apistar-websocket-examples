@@ -1,7 +1,8 @@
 from apistar import ASyncApp
-from .handlers import routes
+from handlers import routes, WebSocketEvents
 
 
 app = ASyncApp(
-    routes=routes
+    event_hooks=[WebSocketEvents],
+    routes=routes,
 )
