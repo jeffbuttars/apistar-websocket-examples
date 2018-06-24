@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+./app.py hello
+./app.py ping
+./app.py consumer
+./app.py json_consumer
+./app.py producer
+./app.py json_producer
+./app.py time
+# ./app sub apistar
+./app.py crypto ETH
+./app.py crypto_managed XRP
