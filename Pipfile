@@ -8,6 +8,8 @@ uvicorn = "*"
 "015a35f" = {path = "/home/jeffre/Dev/apistar/apistar", editable = true}
 aiohttp = "*"
 aiofiles = "*"
+daphne = "*"
+hypercorn = "*"
 
 [dev-packages]
 neovim = "*"
